@@ -13,7 +13,7 @@ prompt = st.chat_input("What is up?")
 
 # Display website in the first column
 website_url = ""  # Set this to an empty string to test the image placeholder
-placeholder_image_url = "pages/assets/sales_wiki.png"  # URL of your placeholder image
+placeholder_image_url = "alfred/pages/assets/sales_wiki.png"  # URL of your placeholder image
 
 with col1: 
     if website_url:

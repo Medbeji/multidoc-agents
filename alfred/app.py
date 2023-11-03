@@ -9,7 +9,8 @@ add_page_title()
 # should be
 show_pages(
     [
-        Page("app.py", "Home", "🏠"),
-        Page("pages/search.py", "Upload", ":books:"),
+        Page("alfred/app.py", "Home", "🏠"),
+        Page("alfred/pages/search.py", "Chat", "💬"),
+        Page("alfred/pages/agent.py", "Agent", "🔍"),
     ]
 )

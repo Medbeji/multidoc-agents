@@ -1,0 +1,5 @@
+langchain
+openai
+llama_index==0.8.41 
+pypdf
+sentence-transformers
