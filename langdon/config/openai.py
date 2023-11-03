@@ -1,10 +1,11 @@
-from pydantic import BaseSettings, Field
+from pydantic import Field
+from pydantic_settings import BaseSettings # NEW
 from typing import Optional
 
 class OpenAIConfig(BaseSettings):
     OPENAI_API_KEY: str = Field(..., env='OPENAI_API_KEY')
     OPENAI_API_BASE: Optional[str] = Field(None, env='OPENAI_API_BASE')
-    MODEL: bool = Field(default=False, env='MODEL')
+    MODEL: str = Field(default=False, env='MODEL')
 
     class Config:
         env_file_encoding = 'utf-8'

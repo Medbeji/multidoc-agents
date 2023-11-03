@@ -1,5 +1,4 @@
-langchain
-openai
-llama_index==0.8.41 
-pypdf
-sentence-transformers
+llama-index==0.8.59
+st-pages==0.4.5
+streamlit==1.28.1
+pypdf==3.17.0
